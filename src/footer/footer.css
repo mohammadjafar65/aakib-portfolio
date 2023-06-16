@@ -1,0 +1,126 @@
+.mini_contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+div#footer {
+    /* background: #1a1b1c; */
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+
+.mini_contact h2 {
+    font-size: 70px;
+    color: #fff;
+    margin: 0;
+    text-align: left;
+    line-height: 70px;
+}
+
+.mini_contact a {
+    background-color: transparent;
+    color: white;
+    padding: 20px 65px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 0;
+    transition: 0.3s;
+    border: 2px solid #fff;
+    text-decoration: none;
+}
+
+.mini_contact a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span p svg {
+    color: #F24C3D;
+}
+
+p {
+    color: #686868;
+    padding-top: 0;
+    padding-bottom: 32px;
+    font-size: 14px;
+    margin: 0;
+    text-align: right;
+}
+
+
+/* Mobile Media */
+@media only screen and (max-width: 767px) {
+
+    /* Footer */
+    .mini_contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        gap: 60px !important;
+    }
+    .mini_contact h2 {
+        font-size: 55px;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+        line-height: 65px;
+    }
+    #footer span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #footer span p {
+        padding-bottom: 10px;
+    }
+}
+
+/* Tablet Media CSS */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    div#footer {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .mini_contact h2 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .mini_contact a {
+        padding: 13px 49px;
+    }
+}
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1400) {
+    div#footer {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .mini_contact h2 {
+        font-size: 55px;
+        line-height: 65px;
+    }
+    .mini_contact a {
+        padding: 13px 49px;
+    }
+}

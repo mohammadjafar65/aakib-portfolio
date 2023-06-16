@@ -1,0 +1,403 @@
+.main-skill {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+
+.main-skill .heading-soft-skill {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-skill .soft-skills-details {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    row-gap: 30px;
+    cursor: default;
+    justify-content: center;
+}
+
+.main-skill .soft-skill-details1 h2,
+.main-skill .soft-skill-details2 h2,
+.main-skill .soft-skill-details3 h2 {
+    padding-left: 30px;
+}
+
+.main-skill .soft-skill-details1{
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(159, 128, 255) 2px 2px 0.8rem inset;
+    width: 24%;
+    border-radius: 50px;
+    border: 2px solid rgb(159, 128, 255);
+    transition: 0.3s;
+}       
+
+.main-skill .soft-skill-details1:hover{
+    border-radius: 20px;
+}
+
+.main-skill .soft-skill-details2{
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(128, 181, 255) 2px 2px 0.8rem inset;
+    width: 24%;
+    border-radius: 50px;
+    border: 2px solid rgb(128, 181, 255);
+    transition: 0.3s;
+}    
+
+.main-skill .soft-skill-details2:hover{
+    border-radius: 20px;
+}
+
+.main-skill .soft-skill-details3{
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: rgb(255, 170, 128) 2px 2px 0.8rem inset;
+    width: 24%;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 170, 128);
+    transition: 0.3s;
+}       
+
+.main-skill .soft-skill-details3:hover {
+    border-radius: 20px;
+}
+
+.main-skill .uiux {
+    color: #fff;
+    display: flex;
+    padding-left: 18px;
+}
+
+.main-skill .graphics {
+    color: #fff;
+    display: flex;
+    padding-left: 18px;
+}
+
+.main-skill .web {
+    color: #fff;
+    display: flex;
+    padding-left: 18px;
+}
+
+.main-skill .fig {
+    color: #fff;
+    display: flex;
+    padding-left: 18px;
+}
+
+.main-skill .anim {
+    color: #fff;
+    display: flex;
+    padding-left: 18px;
+}
+
+.main-skill .branding {
+    color: #fff;
+    display: flex;
+    padding-left: 18px;
+}
+
+.main-skill .heading-hard-skill {
+    color: #fff;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-skill .hard-skills-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    row-gap: 30px;
+    cursor: default;
+    justify-content: center;
+}
+
+.main-skill .hard-skills-details1{
+    background: linear-gradient(60deg, black 35%, rgb(128, 181, 255) 100% );
+    width: 24%;
+    
+    border: 2px solid rgb(128, 181, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}       
+
+.main-skill .hard-skills-details1:hover{
+    border-radius: 20px;
+}
+
+.main-skill .hard-skills-details2{
+    background: linear-gradient(60deg, black 35%, rgb(159, 128, 255) 100% );
+    width: 24%;
+    
+    border: 2px solid rgb(159, 128, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}       
+
+.main-skill .hard-skills-details2:hover {
+    border-radius: 20px;
+}
+
+.main-skill .hard-skills-details3{
+    background: linear-gradient(60deg, black 35%, rgb(255, 170, 128) 100% );
+    width: 24%;
+    
+    border: 2px solid rgb(255, 170, 128);
+    border-radius: 50px;
+    transition: 0.3s;
+}       
+
+.main-skill .hard-skills-details3:hover {
+    border-radius: 20px;
+}
+
+.main-skill .hard-skills-details4{
+    background: linear-gradient(60deg, #000 35%, rgb(128, 181, 255) 100% );
+    width: 24%;
+    
+    border: 2px solid rgb(128, 181, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}      
+
+.main-skill .hard-skills-details4:hover {
+    border-radius: 20px;
+}
+
+.main-skill .hard-skills-details5{
+    background: linear-gradient(60deg, #000 35%, rgb(159, 128, 255) 100% );
+    width: 24%;
+    
+    border: 2px solid rgb(159, 128, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}       
+
+.main-skill .hard-skills-details5:hover{
+    border-radius: 20px;
+}
+
+.main-skill .hard-skills-details h2 {
+    color: #fff;
+    text-align: left;
+    padding-left: 30px;
+    line-height: 50px;
+}
+
+/* Mobile Media Css */
+@media only screen and (max-width: 767px) {
+    /* .main-skill .heading-soft-skill {
+        font-size: 50px;
+        padding-left: 60px;
+    } */
+    .main-skill .soft-skills-details {
+        align-items: baseline !important;
+        padding: 0px 25px ;
+    }
+    .main-skill .soft-skill-details1 {
+        width: 100%;
+    }
+    .main-skill .soft-skill-details2 {
+        width: 100%;
+    }
+    .main-skill .soft-skill-details3 {
+        width: 100%;
+    }
+    .main-skill .heading-hard-skill {
+        font-size: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .main-skill .hard-skills-details {
+        align-items: baseline !important;
+        padding: 0px 25px ;
+    }
+    .main-skill .hard-skills-details1 {
+        width: 100%;
+    }
+    .main-skill .hard-skills-details2 {
+        width: 100%;
+    }
+    .main-skill .hard-skills-details3 {
+        width: 100%;
+    }
+    .main-skill .hard-skills-details4 {
+        width: 100%;
+    }
+    .main-skill .hard-skills-details5 {
+        width: 100%;
+    }
+    .main-skill .uiux {
+        text-align: left;
+    }
+    .main-skill .graphics {
+        text-align: left;
+    }
+    .main-skill .web {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .fig {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .anim {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .branding {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .ils {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .ps {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .cdr {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .figma {
+        text-align: left;
+        margin-left: 8px;
+    }
+    .main-skill .animate {
+        text-align: left;
+        margin-left: 8px;
+    }
+}
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    /* .main-skill .heading-soft-skill {
+        font-size: 55px;
+        padding-left: 60px;
+    } */
+    .main-skill .soft-skills-details{
+        display: flex;
+    }
+    .main-skill .soft-skill-details1 {
+        width: 45%;
+    }
+    .main-skill .soft-skill-details2 {
+        width: 45%;
+    }
+    .main-skill .soft-skill-details3 {
+        width: 45%;
+    }
+    /* .main-skill .heading-hard-skill {
+        font-size: 55px;
+        
+    } */
+
+    .main-skill .hard-skills-details1 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details2 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details3 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details4 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details5 {
+        width: 45%;
+    }
+    .main-skill .ils {
+        text-align: left;
+        padding-left: 13px;
+    }
+    .main-skill .ps {
+        text-align: left;
+        padding-left: 13px;
+    }
+    .main-skill .cdr {
+        text-align: left;
+        padding-left: 13px;
+    }
+    .main-skill .figma {
+        text-align: left;
+        padding-left: 13px;
+    }
+    .main-skill .animate {
+        text-align: left;
+        padding-left: 13px;
+    }
+}
+
+/* Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+    /* .main-skill .heading-soft-skill {
+        font-size: 70px;
+        padding-left: 60px;
+    } */
+    .main-skill .soft-skills-details{
+        display: flex;
+    }
+    .main-skill .soft-skill-details1 {
+        width: 45%;
+    }
+    .main-skill .soft-skill-details2 {
+        width: 45%;
+    }
+    .main-skill .soft-skill-details3 {
+        width: 45%;
+    }
+    /* .main-skill .heading-hard-skill {
+        font-size: 70px;
+    } */
+
+    .main-skill .hard-skills-details1 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details2 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details3 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details4 {
+        width: 45%;
+    }
+    .main-skill .hard-skills-details5 {
+        width: 45%;
+    }
+    .main-skill .ils {
+        text-align: left;
+        padding-left: 13px;
+    }
+    .main-skill .ps {
+        text-align: left;
+        padding-left: 13px;
+    }
+    .main-skill .cdr {
+        text-align: left;
+        padding-left: 14px;
+    }
+    .main-skill .figma {
+        text-align: left;
+        padding-left: 13px;
+    }
+    .main-skill .animate {
+        text-align: left;
+        padding-left: 13px;
+    }
+}

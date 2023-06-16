@@ -1,0 +1,485 @@
+.about {
+    background-color: black;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.about .anim {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.about .title {
+    color: white;
+    margin: 0px;
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 0;
+    font-weight: 800;
+}
+
+.about .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.about .image div {
+    overflow: hidden;
+    width: 60%;
+    height: 40rem;
+    border-radius: 27rem;
+    transition: 0.3s;
+}
+
+.about .image div:hover {
+    border-radius: 10rem;
+}
+
+.about .image div:hover img {
+    filter: grayscale(0);
+}
+
+.about img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: 0.3s;
+}
+
+.about h3 {
+    font-size: 28px;
+    color: #8c8c8c;
+    margin-bottom: 60px;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.about .bio {
+    color: #d9d9d9;
+    font-size: 35px;
+    width: 100%;
+    line-height: 1.5;
+    font-weight: 500;
+    float: left;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    padding: 0 9%;
+}
+
+.about .port-btn {
+    background-color: transparent;
+    color: white;
+    padding: 20px 65px;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 50px;
+    font-weight: 600;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 0;
+    transition: 0.3s;
+    border: 2px solid #fff;
+}
+
+.about .port-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.slider-wrapper {
+    font-size: 40px;
+    color: #aaa;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    height: 50px;
+    overflow: hidden;
+}
+
+.slider div {
+    color: #fff;
+    height: 50px;
+    margin-bottom: 50px;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.slider-text1 {
+    animation: slide 7s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        margin-top: -300px;
+    }
+
+    25% {
+        margin-top: -300px;
+    }
+
+    30% {
+        margin-top: -200px;
+    }
+
+    55% {
+        margin-top: -200px;
+    }
+
+    60% {
+        margin-top: -100px;
+    }
+
+    85% {
+        margin-top: -100px;
+    }
+
+    90% {
+        margin-top: 0px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+
+.h-hobbies {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.hobbies-card-details {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    row-gap: 30px;
+    margin-bottom: 10%;
+}
+
+.heading-card {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.travel-card {
+    background: linear-gradient(60deg, #000 35%, rgb(128, 181, 255) 100%);
+    width: 28%;
+    height: 90px;
+    border: 2px solid rgb(128, 181, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.travel-card:hover {
+    border-radius: 20px;
+}
+
+.hobbies-headings {
+    color: #fff;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.photo-card {
+    background: linear-gradient(60deg, black 35%, rgb(159, 128, 255) 100%);
+    width: 28%;
+    height: 90px;
+    border: 2px solid rgb(159, 128, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.photo-card:hover {
+    border-radius: 20px;
+}
+
+.movies-card {
+    background: linear-gradient(60deg, black 35%, rgb(255, 170, 128) 100%);
+    width: 28%;
+    height: 90px;
+    border: 2px solid rgb(255, 170, 128);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.movies-card:hover {
+    border-radius: 20px;
+}
+
+.music-card {
+    background: linear-gradient(60deg, #000 35%, rgb(128, 181, 255) 100%);
+    width: 28%;
+    height: 90px;
+    border: 2px solid rgb(128, 181, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.music-card:hover {
+    border-radius: 20px;
+}
+
+.reading-card {
+    background: linear-gradient(60deg, black 35%, rgb(159, 128, 255) 100%);
+    width: 28%;
+    height: 90px;
+    border: 2px solid rgb(159, 128, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.reading-card:hover {
+    border-radius: 20px;
+}
+
+.writing-card {
+    background: linear-gradient(60deg, black 35%, rgb(255, 170, 128) 100%);
+    width: 28%;
+    height: 90px;
+    border: 2px solid rgb(255, 170, 128);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.writing-card:hover {
+    border-radius: 20px;
+}
+
+/* Mobile Media */
+@media only screen and (max-width: 767px) {
+    .about .title {
+        font-size: 45px;
+    }
+    .about h3 {
+        font-size: 20px;
+    }
+    .about .image {
+        margin-bottom: 30px;
+    }
+    .about .image div {
+        height: 50vh;
+        width: 80%;
+    }
+    .about .bio {
+        font-size: 18px;
+        padding: 0px 15px;
+    }
+    .about .port-btn {
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+    .h-hobbies {
+        font-size: 30px;
+        padding: 20px 100px;
+    }
+    .hobbies-card-details {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 20px;
+    }
+    .travel-card {
+        width: 45%;
+        height: 65px;
+    }
+    .hobbies-headings {
+        font-size: 18px;
+        padding: 3px;
+    }
+    .photo-card {
+        width: 45%;
+        height: 65px;
+    }
+    .movies-card {
+        width: 45%;
+        height: 65px;
+    }
+    .music-card {
+        width: 45%;
+        height: 65px;
+    }
+    .reading-card {
+        width: 45%;
+        height: 65px;
+    }
+    .writing-card {
+        width: 45%;
+        height: 65px;
+    }
+
+    /* Footer */
+    .mini_contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 100px;
+        gap: 60px !important;
+    }
+    .mini_contact h2 {
+        font-size: 60px;
+        color: #fff;
+        margin: 0;
+        text-align: center;
+        line-height: 65px;
+    }
+    #footer span {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+/* Tablet Media CSS */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .about .title {
+        font-size: 70px;
+    }
+    .about h3 {
+        font-size: 25px;
+    }
+    .about .image {
+        margin-bottom: 60px;
+    }
+    .about .image div {
+        height: 80vh;
+        width: 50%;
+    }
+
+    .about .bio {
+        font-size: 25px;
+        padding: 0 10%;
+    }
+    .about .port-btn {
+        margin-top: 20px;
+        padding: 20px 50px;
+        font-size: 28px;
+    }
+    .h-hobbies {
+        font-size: 50px;
+        padding: 0 66px;
+    }
+    .hobbies-card-details {
+        gap: 60px;
+    }
+    .hobbies-headings {
+        font-size: 21px;
+        padding: 2px;
+    }
+    .travel-card {
+        height: 75px;
+        width: 23%;
+    }
+    .photo-card {
+        height: 75px;
+        width: 23%;
+    }
+    .movies-card {
+        height: 75px;
+        width: 23%;
+    }
+    .music-card {
+        height: 75px;
+        width: 23%;
+    }
+    .reading-card {
+        height: 75px;
+        width: 23%;
+    }
+    .writing-card {
+        height: 75px;
+        width: 23%;
+    }
+}
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1400px) {
+    .about .title {
+        font-size: 90px;
+    }
+    .about h3 {
+        font-size: 30px;
+    }
+    .about .image {
+        margin-bottom: 65px;
+    }
+    .about .image div {
+        overflow: hidden;
+        width: 66%;
+        height: 50rem;
+        border-radius: 27rem;
+        transition: 0.3s;
+    }
+    .about .bio {
+        font-size: 27px;
+        padding: 0 6%;
+    }
+    .about .port-btn {
+        margin-top: 50px;
+    }
+    .h-hobbies {
+        padding: 0 160px;
+    }
+    .hobbies-card-details {
+        gap: 30px;
+    }
+    .hobbies-headings {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    .travel-card {
+        width: 30%;
+    }
+    .photo-card {
+        width: 30%;
+    }
+    .movies-card {
+        width: 30%;
+    }
+    .music-card {
+        width: 30%;
+    }
+    .reading-card {
+        width: 30%;
+    }
+    .writing-card {
+        width: 30%;
+    }
+}

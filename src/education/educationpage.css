@@ -1,0 +1,152 @@
+.heading-edu{
+    color: white;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 100px;
+}
+
+.card-details {
+    margin-bottom: 10%;
+}
+
+.card1 {
+    background: linear-gradient(45deg, #000 40%, #9f80ff 100%);
+    color: #fff;
+    border: 3px solid #9f80ff52;
+    border-radius: 70px;
+    background-origin: border-box;
+    width: 45%;
+    text-align: left;
+    transition: 0.3s;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.card1:hover {
+    border-radius: 20px;
+}
+
+.edu-card-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.year-i {
+    color: #8c8c8c;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.clg-i {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.degree-i {
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.card2 {
+    background: linear-gradient(45deg, #000 40%, rgb(128, 181, 255) 100%);
+    color: #fff;
+    border: 2px solid rgb(128, 181, 255);
+    border-radius: 70px;
+    background-origin: border-box;
+    width: 45%;
+    text-align: left;
+    transition: 0.3s;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.card2:hover {
+    border-radius: 20px;
+}
+
+/* Mobile Media Css */
+@media only screen and (max-width: 767px) {
+    .heading-edu {
+        font-size: 50px;
+    }
+    .card1 {
+        height: 45vh;
+        width: 70%;
+        padding: 40px 30px;
+    }
+    .card2 {
+        height: 45vh;
+        width: 70%;
+        padding: 40px 30px;
+    }
+    .clg-i {
+        font-size: 22px;
+    }
+    .edu-card-details {
+        display: grid;
+        justify-items: center;
+    }
+}
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .card1 {
+        width: 45%;
+        height: 100%;
+        padding: 50px 20px;
+    }
+    .card2 {
+        width: 45%;
+        padding: 50px 20px;
+    }
+    .year-i {
+        font-size: 15px;
+    }
+    .clg-i {
+        font-size: 16px;
+    }
+    .degree-i {
+        font-size: 15px;
+    }
+}
+
+/* Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+    .card1 {
+        width: 45%;
+        padding: 40px 35px;
+        height: 31vh;
+    }
+    .card2 {
+        width: 45%;
+        padding: 40px 35px;
+        height: 31vh;
+    }
+    .year-i {
+        font-size: 20px;
+    }
+    .clg-i {
+        font-size: 25px;
+    }
+    .degree-i {
+        font-size: 20px;
+    }
+}

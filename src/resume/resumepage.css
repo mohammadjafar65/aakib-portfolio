@@ -1,0 +1,72 @@
+
+.resume-img {
+    width: 41%;
+    padding: 40px 40px;
+}
+
+.i-cancel {
+    color: #fff;
+    font-size: 30px;
+    position: fixed;
+    top: 45px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.d-btn {
+    position: fixed;
+    bottom: 35px; 
+    right: 35px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+
+.d-btn:hover {
+    background-color: #fff;
+    color: #000;
+}   
+
+/* Mobile Media Css */
+@media only screen and (max-width: 767px) {
+    .resume-img {
+        width: auto;
+        padding: 25px;
+    }
+}
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .resume-img {
+        width: auto;
+        padding: 35px;
+    }
+    .d-btn {
+        bottom: 13px; 
+        right: 40px;
+        padding: 20px 30px;
+        font-size: 25px;
+    }
+}
+
+/* Desktop Media Css */
+@media only screen and (min-width:993px) and (max-width:1440px) {
+    .resume-img {
+        width: 75vh;
+    }
+    .d-btn {
+        bottom: 20px;
+        right: 40px;
+        padding: 20px 30px;
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,156 @@
+.work .heading1 {
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+
+.work p {
+    margin: 0;
+    font-size: 22px;
+    color: #8c8c8c;
+    margin-bottom: 60px;
+    margin-top: -8px;
+    font-weight: 400;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.work {
+    background-color: black;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+    width: 100%;
+    gap: 100px;
+    margin-top: 60px;
+    margin-bottom: 20%;
+}
+
+.grid_wrapper .work_card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.grid_wrapper .work_card .thumbnail {
+    width: 280px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 60px;
+    border: 0px solid #ffffffde;
+    flex-shrink: 0;
+    transition: 0.3s;
+}
+
+.grid_wrapper .work_card .thumbnail:hover {
+    /* transform: scale(1.1); */
+    box-shadow: 2px 2px 2px #8c8c8c;
+    border-radius: 20px;
+}
+
+.grid_wrapper .work_card img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.grid_wrapper .work_card span p {
+    font-size: 15px;
+    color: #fff;
+    text-align: left;
+    margin-top: 10px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.grid_wrapper .work_card span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.grid_wrapper .work_card span h5 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.grid_wrapper .work_card span a {
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.grid_wrapper .work_card span a:hover {
+    color: #000;
+    background: #fff;
+}
+
+/* Mobile Media Css */
+@media only screen and (max-width: 767px) {
+    .work .heading1 {
+        font-size: 35px;
+        line-height: 50px;
+    } 
+    .grid_wrapper {
+        display: flex;
+        grid-template-columns: auto auto;
+        justify-items: center;
+        width: 100%;
+        gap: 100px;
+        margin-top: 60px;
+        margin-bottom: 20%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid_wrapper .work_card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .grid_wrapper .work_card .thumbnail {
+        width: 100%;
+    }
+    .grid_wrapper .work_card span p {
+        margin-bottom: 0;
+    }
+}
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .grid_wrapper {
+        gap: 50px;
+        grid-template-columns: auto;
+    }
+}
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+    .grid_wrapper {
+        gap: 50px;
+        grid-template-columns: auto;
+    }
+}

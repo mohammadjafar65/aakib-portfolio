@@ -1,0 +1,111 @@
+.heading-exp {
+    color: #fff;
+    font-size: 50px;
+    /* font-weight: 600; */
+    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 45px;
+}
+
+.main-card {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+.exp-details h4 {
+    margin: 0;
+}
+
+.experience-card {
+    margin-bottom: 150px;
+}
+
+.exp-card {
+    background: linear-gradient(60deg, black 35%, rgb(159, 128, 255) 100% );
+    /* height: 30vh; */
+    width: 40%;
+    border: 2px solid rgb(159, 128, 255);
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.exp-card:hover {
+    border-radius: 20px;
+}
+
+.exp-details {
+    color: #8c8c8c;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.h-ankit {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 800;
+    margin: 0px 0px !important;
+}
+
+/* Mobile Media Css */
+@media only screen and (max-width: 767px) {
+    .heading-exp {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .exp-details {
+        font-size: 23px;
+        padding: 25px 10%;
+    }
+    .h-ankit {
+        font-size: 22px;
+    }
+    .exp-card {
+        width: 100%;
+    }
+    .exp-details h4 {
+        margin: 0;
+        font-size: 19px;
+    }
+    .main-card {
+        padding: 0px 15px;
+    }
+}
+
+/* Tablet Media Css */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .exp-details {
+        font-size: 32px;
+        padding: 50px 35px;
+    }
+    .exp-card {
+        width: 80%;
+    }
+    .h-ankit {
+        font-size: 30px;
+    }
+    .exp-details h4 {
+        font-size: 20px;
+    }
+}
+
+/* Big Desktop Media Css */
+@media only screen and (min-width: 993px) and (max-width: 1440px) {
+    
+    .exp-details {
+        font-size: 30px;
+        padding: 50px 5%;
+    }
+    .exp-card {
+        width: 100%;
+    }
+    .h-ankit {
+        font-size: 35px;
+    }
+}
